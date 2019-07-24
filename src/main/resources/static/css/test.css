@@ -1,0 +1,429 @@
+<!--预约-->
+.page_top {
+    background-color: #4275ff;
+    padding: 0 4%;
+    height: 20px;
+    position: relative;
+    padding: 12px 0;
+}
+.back {
+    background: url(../img/back.png) no-repeat;
+    -webkit-background-size:100% 100%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 4%;
+    top: 12px;
+}
+.price {
+    background: url(../img/price.png) no-repeat;
+    -webkit-background-size:100% 100%;
+    width: 19px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    right: 15%;
+    top: 12px;
+    text-decoration: none;
+}
+.icon {
+    background: url(../img/icon.png) no-repeat;
+    -webkit-background-size:100% 100%;
+    width: 19px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    right: 4%;
+    top: 14px;
+}
+.price_box {
+    background-color: #4175ff;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    padding: 4px 2px;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    width:110px;
+    -webkit-transform: translate3d(-50%,0,0);
+    border-radius: 5px;
+    text-align: center;
+}
+.price_triangle {
+    border: 8px solid #4175ff;
+    border-color: transparent transparent #4175ff transparent;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    -webkit-transform: translate3d(-50%,0,0);
+
+}
+.drug_box {
+    padding-bottom: 60px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #605f5f;
+}
+.drug_box .drug_top {
+    padding: 15px 4% 5px;
+    border-bottom: 10px solid #eeeeee;
+}
+.drug_box .drug_tit {
+    font-size: 19px;
+}
+.drug_box .drug_sign {
+    width: 17px;
+    height: 17px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 15px;
+    display:inline-block;
+}
+.drug_box .drug_nav {
+    padding: 14px 4%;
+    border-bottom: 1px solid #e7e7e7;
+}
+.drug_box .drug_nav a {
+    display: inline-block;
+    width: 32%;
+    font-size: 13px;
+    line-height: 17px;
+    color: #605f5f;
+    text-align: center;
+}
+.drug_box .drug_nav a div {
+    display: inline-block;
+    margin: 0 auto;
+}
+.drug_box .drug_nav a div p:nth-child(2) {
+    color: #ff8080;
+}
+.drug_box .drug_nav a .nav_a {
+    background: url("../img/nav1.png") no-repeat left center;
+    -webkit-background-size: 34px 34px;
+    padding-left: 36px;
+    text-align: left;
+}
+.drug_box .drug_nav a .nav_b {
+    background: url("../img/nav2.png") no-repeat left center;
+    -webkit-background-size: 34px 34px;
+    padding-left: 36px;
+    text-align: left;
+}
+.drug_box .drug_nav a .nav_b p:nth-child(2) {
+    color: #5bc6ff;
+}
+.drug_box .drug_nav a .nav_c {
+    background: url("../img/nav3.png") no-repeat left center;
+    -webkit-background-size: 34px 34px;
+    padding-left: 36px;
+    text-align: left;
+}
+.drug_box .drug_nav a:first-child {
+    text-align: left;
+}
+.drug_box .drug_nav a:last-child {
+    text-align: right;
+}
+.drug_box .drug_link {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 0 4%;
+}
+.drug_box .drug_link a {
+    background: url("../img/fanhui.png") no-repeat right center;
+    -webkit-background-size: 8px 14px;
+    padding-right: 15px;
+    display: block;
+    font-size: 15px;
+    line-height: 42px;
+    color: #333333;
+}
+.drug_box .drug_link a.msg {
+    background: url("../img/msg.png") no-repeat left center, url("../img/fanhui.png") no-repeat right center;
+    -webkit-background-size: 20px 19px, 8px 14px;
+    padding-left: 27px;
+}
+
+.drug_box .drug_link a.zhinan {
+    background: url("../img/zhinan.png") no-repeat left center, url("../img/fanhui.png") no-repeat right center;
+    -webkit-background-size: 20px 20px, 8px 14px;
+    padding-left: 27px;
+}
+.drug_box .drug_classify {
+    padding: 10px 4% 7px;
+}
+.drug_box .classify_top {
+    font-size: 16px;
+    line-height: 30px;
+    color: #111111;
+    display: -webkit-box;
+    display: -webkit-flex;
+    width: 100%;
+}
+.drug_box .classify_top .tit {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    width: 100%;
+}
+.drug_box .classify_top .open {
+    width: 60px;
+    text-align: right;
+    font-size: 13px;
+    color: #999999;
+}
+.drug_box .classify_cont {
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.drug_box .classify_cont .blue {
+    color: #4275ff;
+
+}
+.drug_box .height_auto {
+    height: auto;
+}
+.drug_box .drug_msg {
+    padding: 10px 4%;
+
+}
+.drug_box .drug_msg .msg_tit {
+    font-size: 16px;
+    line-height: 30px;
+    color: #111;
+}
+.drug_box .msg_block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    width: 100%;
+}
+.drug_box .msg_block .msg_txt {
+    width: 60px;
+    margin: 0;
+}
+.drug_box .msg_block .msg_infor {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.menu_fixed_box {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e1e5ea;
+    height: 49px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    margin: 0;
+    background-color: #fff;
+}
+.menu_fixed_box a {
+
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    width: 100%;
+    background: url("../img/shoucang.png") no-repeat center 4px;
+    -webkit-background-size: 22px 22px;
+    padding-top: 25px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #abafb5;
+    text-align: center;
+    height: 24px;
+}
+.menu_fixed_box a.shoucang {
+    background: url("../img/shoucang.png") no-repeat center 4px;
+    -webkit-background-size: 22px 22px;
+}
+.menu_fixed_box a.jiucuo {
+    background: url("../img/jiucuo.png") no-repeat center 4px;
+    -webkit-background-size: 22px 22px;
+}
+.menu_fixed_box a.fenxiang {
+    background: url("../img/fenxiang.png") no-repeat center 4px;
+    -webkit-background-size: 22px 23px;
+}
+.menu_fixed_box a.mulu {
+    background: url("../img/mulu.png") no-repeat center 4px;
+    -webkit-background-size: 22px 22px;
+}
+.nav_box {
+    margin: 20px 4% 8px;
+    background:#fff;
+}
+.nav_box .nav_block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto;
+    -webkit-box-shadow: 0px 0px 15px 0px #dee0e9;
+    -moz-box-shadow: 0px 0px 15px 0px #dee0e9;
+    box-shadow: 0px 0px 15px 0px #dee0e9;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:9px 0 16px;
+}
+.nav_box .nav_block a {
+    width: 33.3%;
+    display: block;
+    background: url("../img/icon01.png") no-repeat center 20px;
+    -webkit-background-size: 14px 20px;
+    padding-top: 46px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #333333;
+    text-align: center;
+}
+.nav_box .nav_block a.icon01 {
+    background: url("../img/up-icon1.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon02 {
+    background: url("../img/up-icon2.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon03 {
+    background: url("../img/up-icon3.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon04 {
+    background: url("../img/up-icon4.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon05 {
+    background: url("../img/up-icon5.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon06 {
+    background: url("../img/up-icon6.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon07 {
+    background: url("../img/up-icon7.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_block a.icon08 {
+    background: url("../img/up-icon8.png") no-repeat center 15px;
+    -webkit-background-size: 30px 30px;
+}
+.nav_box .nav_line {
+    margin: 0 8%;
+}
+.nav_box .nav_line a {
+    display: block;
+    background: url("../img/fanhui.png") no-repeat right center, url("../img/icon05.png") no-repeat left center;
+    -webkit-background-size: 8px 14px, 8px 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+}
+ .drug_topBottom{
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: flex;
+     width: 100%;
+     margin-top: 4px;
+ }
+.drug_com{
+    font-size:14px;
+    line-height: 24px;
+    height: 24px;
+    color:#999;
+    -webkit-flex: 1;
+    flex:1;
+}
+.drug_price{
+    display: block;
+    position:relative;
+    font-size:12px;
+    height: 24px;
+    color:#333;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
+.drug_price:before{
+    display: block;
+    content:'';
+    width: 15px;
+    height: 16px;
+    background: url(../img/drug-price.png) left center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position:absolute;
+    top:4px;
+    left:0px;
+}
+.drug_price:after{
+    display: block;
+    content:'';
+    width: 5px;
+    height: 9px;
+    background: url(../img/right-icon.png) right center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position:absolute;
+    top:8px;
+    right:0px;
+}
+.otc0{
+    background: url(../img/otc0.png) right center no-repeat;
+}
+.otc1{
+    background: url(../img/otc1.png) right center no-repeat;
+}
+.otc2{
+    background: url(../img/otc2.png) left center no-repeat;
+}
+.otc3{
+    background: url(../img/otc3.png) left center no-repeat;
+}
+.otc4{
+    background: url(../img/otc4.png) left center no-repeat;
+}
+.essential_icon{
+    background: url(../img/essential.png) right center no-repeat;
+}
+.du_icon{
+    background: url(../img/top_img_du.png) left center no-repeat;
+}
+.top_img_ma_icon{
+    background: url(../img/top_img_ma.png) left center no-repeat;
+}
+.top_img_jing_icon{
+    background: url(../img/top_img_jing.png) left center no-repeat;
+}
+
+.top_img_fang_icon{
+    background: url(../img/top_img_fang.png) left center no-repeat;
+}
+
+.top_img_yun_icon{
+    background: url(../img/top_img_yun.png) left center no-repeat;
+}
+
+.topic_icon{
+    background: url(../img/topic.png) left center no-repeat;
+}
