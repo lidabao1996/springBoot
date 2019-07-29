@@ -1,3 +1,18 @@
+.item_title {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #111111;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.item_content {
+    font-size:15px;
+    margin-bottom: 20px;
+    margin-right: 14px;
+    line-height: 25px;
+    color: #605f5f;
+}
 <!--预约-->
 .page_top {
     background-color: #4275ff;
@@ -355,7 +370,7 @@
     flex:1;
 }
 .drug_price{
-    display: block;
+    display: inline-block;
     position:relative;
     font-size:12px;
     height: 24px;
@@ -365,7 +380,7 @@
     text-align: right;
 }
 .drug_price:before{
-    display: block;
+    display: inline-block;
     content:'';
     width: 15px;
     height: 16px;

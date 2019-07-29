@@ -1,4 +1,8 @@
 package com.example.demo.pos.dao.repository;
 
-public class UserRepository {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository{
+
 }
